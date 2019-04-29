@@ -9,6 +9,9 @@ On that webpage, select https://maps.canada.ca/czs/index-en.html to access "Geos
 
 We will be using Thor Peak located in Auyuittuq National Park, Nunavut as an example. The mountain has a vertical drop of 1250m (google "thor peak" or "mount thor" to see images, especially images with figures of people next to the mountain to get a sense of scale).
 
+1. Type "thor peak" for a location:
+
+<img src="images/1.png" width="640">
 
 
 # References
