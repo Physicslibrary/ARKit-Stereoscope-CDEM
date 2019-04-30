@@ -119,13 +119,13 @@ Can stop here without going further as Blender can be used to view the mountain.
 
 Next is generate a texture map (from a high-poly mesh) and decimate/export the high-poly mesh to a low-poly mesh.
 
-First is to orient the mountain so the user is at a certain position facing a certain direction. One way to do this is put a cube at (0,0,0) and then position Grid until Cube.001 is at where you want to be positioned and oriented (direction of Cube.001 green arrow).
+Orient the mountain so the user is at a certain position facing a certain direction (on a river facing Thor Peak). One way to do this is add Cube.001 at (0,0,0) and then adjust Grid until Cube.001 is at a specific position and orientation (direction of Cube.001 green arrow).
 
 <img src="images/22.png" width="640">
 
 <img src="images/23.png" width="640">
 
-(warning - in Playgrounds, the position will be correct but orientation will flip, not sure why)
+(warning - in Playgrounds, the position is correct but orientation is not, probably need to know how Blender export objects and how Scenekit read them)
 
 Create a new view to "UV/Image Editor" and make a new 2048x2048 image called thor.
 
@@ -173,7 +173,7 @@ Change Ratio from 1.0 to 0.1. The result will be Grid ~100k vertices.
 
 Export to thor.obj.
 
-<img src="images/38.png" width="640">
+<img src="images/38.png" width="160">
 
 
 
