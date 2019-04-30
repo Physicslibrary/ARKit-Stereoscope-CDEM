@@ -7,7 +7,16 @@ https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 
 (This tutorial assumes users are familiar with Blender (www.blender.org, youtube, books) and shows some steps to make textured 3D mesh from GeoTIF.)
 
-On that webpage, select https://maps.canada.ca/czs/index-en.html to access "Geospatial-Data Extraction tool".
+# Software
+
+GIMP 2.10.8 (https://www.gimp.org/)<br>
+Blender 2.79b (https://www.blender.org/)
+
+# Hardware
+
+# GeoTIF to 3D mesh
+
+On the Government of Canada's webpage, select https://maps.canada.ca/czs/index-en.html to access "Geospatial-Data Extraction tool".
 
 We will be using Thor Peak located in Auyuittuq National Park, Nunavut as an example. The mountain has a vertical drop of 1250m (google "thor peak" or "mount thor" to see images, especially images with people near the mountain to get a sense of scale).
 
@@ -30,7 +39,7 @@ We will be using Thor Peak located in Auyuittuq National Park, Nunavut as an exa
 <img src="images/5.png" width="640">
 
 Make note of the dimensions of the map. In this case, 46.4km horizontal and 37.2km vertical (no built in tools, used a real ruler). 
-The dimensions of the polygon coordinates may be useful (the first four pairs of number are coordinates of the rectangle starting from the bottom left, going counterclockwise, the last pair of number is the same as the first).
+The dimensions of the polygon coordinates may be useful for computing the dimensions of the map instead (the first four pairs of number are coordinates of the rectangle starting from the bottom left, going counterclockwise, the last pair of number is the same as the first).
 
 Enter email address to get a zipped file. Unzip file, get folders and DEM.tif. DEM.tif will be used to displace a grid mesh in Blender. However, Blender 2.79b quits when reading DEM.tif as a texture.
 
@@ -102,16 +111,15 @@ Add a sun lamp to the scene and preview.
 
 <img src="images/21.png" width="640">
 
-Next is generate a texture map and decimate/export the 3D mesh as .obj file for Swift Playgrounds.
+Use shift-f in Blender to fly (WASD with mouse, mouse scroll wheel to change speed) around the mountain.
+
+https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html
+
+Next is generate a texture map and decimate/export the 3D mesh as .obj file for iOS Swift Playgrounds.
 
 
 
-# Software
 
-GIMP 2.10.8 (https://www.gimp.org/)<br>
-Blender 2.79b (https://www.blender.org/)
-
-# Hardware
 
 # Credits
 
