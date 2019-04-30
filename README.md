@@ -180,7 +180,7 @@ Export to thor.obj.
 
 # Credits
 
-thor.obj and thor.png are created from geotiff files generated from:
+thor.obj and thor.png were created from GeoTIFF files generated from:
 
 https://maps.canada.ca/czs/index-en.html
 
