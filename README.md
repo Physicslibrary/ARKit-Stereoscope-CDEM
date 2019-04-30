@@ -5,6 +5,8 @@ This project will show how to use Blender to make 3D meshes of GeoTIF files from
 
 https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 
+(This tutorial assumes users are familiar with Blender (www.blender.org, youtube, books) and shows some steps to make textured 3D mesh from GeoTIF.)
+
 On that webpage, select https://maps.canada.ca/czs/index-en.html to access "Geospatial-Data Extraction tool".
 
 We will be using Thor Peak located in Auyuittuq National Park, Nunavut as an example. The mountain has a vertical drop of 1250m (google "thor peak" or "mount thor" to see images, especially images with people near the mountain to get a sense of scale).
@@ -66,11 +68,11 @@ Browse and select texture loaded earlier.
 
 <img src="images/13.png" width="640">
 
-In Modifier Displace, set Midlevel to 0. Set Dimensions X = 46.4km, Y = 37.2km, and Z = 1km.
+In Modifier Displace, set Midlevel to 0, dimensions X = 46.4km, Y = 37.2km, and Z = 1km.
 
 <img src="images/14.png" width="640">
 
-Grey height map with no labels is hard to read so get a reference.
+Grey height map is hard to read so get a reference.
 
 https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 
@@ -98,9 +100,9 @@ After.
 
 Add a sun lamp to the scene and preview.
 
-<img src="images/20.png" width="640">
+<img src="images/21.png" width="640">
 
-Next is generate a texture map and export the 3D mesh as .obj file for Swift Playgrounds.
+Next is generate a texture map and decimate/export the 3D mesh as .obj file for Swift Playgrounds.
 
 
 
