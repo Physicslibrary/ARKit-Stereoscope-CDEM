@@ -194,7 +194,14 @@ https://en.wikipedia.org/wiki/Mount_Thor
 
 https://johnflower.org/tutorial/make-mountains-blender-heightmaps
 
-Thank to John for creating an excellent tutorial.<br><br>
+Thank to John for creating an excellent tutorial.
 
+Youtube on Blender.
+
+https://www.youtube.com/watch?v=sB09T--_ZvU
+
+https://www.youtube.com/watch?v=0r-cGjVKvGw
+
+<br>
 Copyright (c) 2019 Hartwell Fong
 
