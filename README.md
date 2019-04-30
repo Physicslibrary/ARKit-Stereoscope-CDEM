@@ -93,7 +93,7 @@ Press "View on Map" to get the Open Maps Data Viewer. Hide CDEM layer. Look for 
 
 <img src="images/17.png" width="640">
 
-Thor Peak is about 1640m and Weasel River is at 120m.
+Thor Peak is ~1640m and Weasel River is ~120m.
 
 <img src="images/18.png" width="640">
 
