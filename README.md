@@ -97,7 +97,7 @@ Thor Peak is about 1640m and Weasel River is at 120m.
 
 <img src="images/18.png" width="640">
 
-In Blender, make a cube of dimensions 4km x 10m x 1520m and adjust the grid's Z dimension until it is about the same as the height of the cube.
+In Blender, add a mesh cube of dimensions 4km x 10m x 1520m and adjust Grid's Z dimension until it is about the same as the height as Cube.
 
 Before.
 
@@ -115,8 +115,65 @@ Use shift-f in Blender to fly (WASD with mouse, mouse scroll wheel to change spe
 
 https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html
 
-Next is generate a texture map and decimate/export the 3D mesh as .obj file for iOS Swift Playgrounds.
+Can stop here without going further as Blender can be used to view the mountain. The 3D grid can be exported to an .obj file for use in other programs such as iOS Swift Playgrounds, Unity, or Unreal. However, the exported file will be ~100MB which will not work for mobile app Swift Playgrounds.
 
+Next is generate a texture map (from a high-poly mesh) and decimate/export the high-poly mesh to a low-poly mesh.
+
+First is to orient the mountain so the user is at a certain position facing a certain direction. One way to do this is put a cube at (0,0,0) and then position Grid until Cube.001 is at where you want to be positioned and oriented (direction of Cube.001 green arrow).
+
+<img src="images/22.png" width="640">
+
+<img src="images/23.png" width="640">
+
+(warning - in Playgrounds, the position will be correct but orientation will flip, not sure why)
+
+Create a new view to "UV/Image Editor" and make a new 2048x2048 image called thor.
+
+<img src="images/24.png" width="640">
+
+Select the Grid and enter "Edit Mode".
+
+<img src="images/25.png" width="640">
+
+"UV Unwrap", "Project from View", and back to "Object Mode".
+
+<img src="images/26.png" width="640">
+
+<img src="images/27.png" width="640">
+
+<img src="images/28.png" width="640">
+
+Switch a view to "Node Editor", add a new material, add a new image texture, and set image texture to thor.
+
+<img src="images/29.png" width="640">
+
+<img src="images/30.png" width="640">
+
+<img src="images/31.png" width="640">
+
+Bake image texture of selected object.
+
+<img src="images/32.png" width="640">
+
+<img src="images/33.png" width="640">
+
+Save texture as thor.png.
+
+<img src="images/34.png" width="640">
+
+Next is to reduce size of Grid ~1M vertices. On the right, select "Modifiers" and "Decimate".
+
+<img src="images/35.png" width="640">
+
+<img src="images/36.png" width="640">
+
+Change Ratio from 1.0 to 0.1. The result will be Grid ~100k vertices.
+
+<img src="images/37.png" width="640">
+
+Export to thor.obj.
+
+<img src="images/38.png" width="640">
 
 
 
