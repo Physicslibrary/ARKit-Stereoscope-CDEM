@@ -77,7 +77,7 @@ Browse and select texture loaded earlier.
 
 <img src="images/13.png" width="640">
 
-In Modifier Displace, set Midlevel to 0, dimensions X = 46.4km, Y = 37.2km, and Z = 1km.
+In Modifier Displace, set Midlevel to 0, dimensions X = 46.4km, Y = 37.2km, Z = 1km, and "View Clip: Start: 1m End: 100km".
 
 <img src="images/14.png" width="640">
 
