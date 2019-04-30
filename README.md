@@ -13,7 +13,7 @@ We will be using Thor Peak located in Auyuittuq National Park, Nunavut as an exa
 
 <img src="images/1.png" width="640">
 
-2. As an example, zoom out until the Map Scale is 5km:
+2. Zoom out until the Map Scale is 5km:
 
 <img src="images/2.png" width="640">
 
@@ -28,7 +28,7 @@ We will be using Thor Peak located in Auyuittuq National Park, Nunavut as an exa
 <img src="images/5.png" width="640">
 
 Make note of the dimensions of the map. In this case, 46.4km horizontal and 37.2km vertical (no built in tools, used a real ruler). 
-The dimensions of the polygon coordinates may be useful (the first four pairs of number are the coordinates of the rectangle starting from the bottom left, going counterclockwise, the last pair of number is the same as the first).
+The dimensions of the polygon coordinates may be useful (the first four pairs of number are coordinates of the rectangle starting from the bottom left, going counterclockwise, the last pair of number is the same as the first).
 
 Enter email address to get a zipped file. Unzip file, get folders and DEM.tif. DEM.tif will be used to displace a grid mesh in Blender. However, Blender 2.79b quits when reading DEM.tif as a texture.
 
@@ -46,29 +46,61 @@ Cancel "Levels". GIMP can also display metadata. Select "Image", "Metadata", and
 
 Close (metadata may be useful in the future).
 
-Select "File", "Export as...", and new file as DEM2.tif (for example).
+Select "File", "Export as...", and new file as DEM2.tif.
 
+Open Blender, on the top, set to "Cycles Render", on the right, set Units to "Kilometers", Length to "Metric", and Unit Scale to 1000. Add a grid and subdivide to 1024.
 
+<img src="images/9.png" width="640">
 
-Height map is hard to read so get a reference.
+<img src="images/10.png" width="640">
+
+On the right, select Texture and open DEM2.tif and set "Image Mapping Extensions: Extend".
+
+<img src="images/11.png" width="640">
+
+Add Modifier Displace.
+
+<img src="images/12.png" width="640">
+
+Browse and select texture loaded earlier.
+
+<img src="images/13.png" width="640">
+
+In Modifier Displace, set Midlevel to 0. Set Dimensions X = 46.4km, Y = 37.2km, and Z = 1km.
+
+<img src="images/14.png" width="640">
+
+Grey height map with no labels is hard to read so get a reference.
 
 https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 
-Press "View on Map" to get the Open Maps Data Viewer.
+Press "View on Map" to get the Open Maps Data Viewer. Hide CDEM layer. Look for "thor peak".
 
+<img src="images/15.png" width="640">
+
+<img src="images/16.png" width="640">
+
+<img src="images/17.png" width="640">
 
 Thor Peak is about 1640m and Weasel River is at 120m.
 
+<img src="images/18.png" width="640">
 
 In Blender, make a cube of dimensions 4km x 10m x 1520m and adjust the grid's Z dimension until it is about the same as the height of the cube.
 
 Before.
 
+<img src="images/19.png" width="640">
+
 After.
 
+<img src="images/20.png" width="640">
 
+Add a sun lamp to the scene and preview.
 
+<img src="images/20.png" width="640">
 
+Next is generate a texture map and export the 3D mesh as .obj file for Swift Playgrounds.
 
 
 
@@ -81,11 +113,21 @@ Blender 2.79b (https://www.blender.org/)
 
 # Credits
 
+thor.obj and thor.png are created from geotiff files generated from:
+
+https://maps.canada.ca/czs/index-en.html
+
+https://www.canada.ca/en/transparency/terms.html
+
 # References
 
 https://en.wikipedia.org/wiki/GeoTIFF
 
 https://en.wikipedia.org/wiki/Mount_Thor
 
+https://johnflower.org/tutorial/make-mountains-blender-heightmaps
 
+Thank to John for creating an excellent tutorial.<br><br>
+
+Copyright (c) 2019 Hartwell Fong
 
