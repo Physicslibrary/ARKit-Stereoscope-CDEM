@@ -50,6 +50,21 @@ Select "File", "Export as...", and new file as DEM2.tif (for example).
 
 
 
+Height map is hard to read so get a reference.
+
+https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
+
+Press "View on Map" to get the Open Maps Data Viewer.
+
+
+Thor Peak is about 1640m and Weasel River is at 120m.
+
+
+In Blender, make a cube of dimensions 4km x 10m x 1520m and adjust the grid's Z dimension until it is about the same as the height of the cube.
+
+Before.
+
+After.
 
 
 
@@ -67,6 +82,8 @@ Blender 2.79b (https://www.blender.org/)
 # Credits
 
 # References
+
+https://en.wikipedia.org/wiki/GeoTIFF
 
 https://en.wikipedia.org/wiki/Mount_Thor
 
