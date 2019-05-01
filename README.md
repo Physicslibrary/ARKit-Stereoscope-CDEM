@@ -1,7 +1,7 @@
 # ARKit-Stereoscope-CDEM (under construction)
 Explore Canadian Digital Elevation Model with Blender, Gimp, and ARKit.
 
-This project will show how to use Blender to make 3D meshes of GeoTIF files from Government of Canada:
+This project shows how to use Blender to make 3D meshes of GeoTIF files from the Government of Canada:
 
 https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 
@@ -174,7 +174,6 @@ Change Ratio from 1.0 to 0.1. The result will be Grid ~100k vertices.
 Export to thor.obj.
 
 <img src="images/38.png" width="160">
-
 
 
 
