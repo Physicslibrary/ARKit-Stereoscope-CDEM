@@ -1,6 +1,8 @@
 # ARKit-Stereoscope-CDEM (under construction)
 Explore Canadian Digital Elevation Model with Blender, Gimp, and ARKit.
 
+<img src="images/0.jpg" width="640">
+
 This project shows how to use Blender to make 3D meshes of GeoTIF files from the Government of Canada:
 
 https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
@@ -12,6 +14,15 @@ https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
+
+In addition to viewing 3D models with 6DOF tracking, it can also be used in a browser to view stereoscopic images from [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/).
+
+For more current images, [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
+   
+<img src="images/owl-viewer.jpg" width="640">
+
+It is advisable to get a protective silicon case for the iPad to minimize the stereoscope sliding on the screen. The stereoscopic viewer is held in place by the user to allow switching between viewing and programming Playgrounds. With "Portrait Orientation Lock" on, this should be the most comfortable position to hold the iPad with the viewer and looking around virtual objects.
+
 
 https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the stereoscope with a 9.7" iPad.
 
