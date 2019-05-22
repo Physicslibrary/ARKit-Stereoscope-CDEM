@@ -197,7 +197,7 @@ Bake image texture of selected object.
 
 <img src="images/33.png" width="640">
 
-Save texture as thor.png.
+Save texture as thor_peak.png.
 
 <img src="images/34.png" width="640">
 
@@ -211,7 +211,7 @@ Change Ratio from 1.0 to 0.05. The result is a mesh ~52k vertices.
 
 <img src="images/37.png" width="640">
 
-Export to thor.obj. File thor_peak.obj ~11MB (Note - Ratio=0.1 ~22MB file but didn't work well with Playgrounds)
+Export to thor_peak.obj. File thor_peak.obj ~11MB (Note - Ratio=0.1 ~22MB file but didn't work well with Playgrounds)
 
 <img src="images/38.png" width="160">
 
