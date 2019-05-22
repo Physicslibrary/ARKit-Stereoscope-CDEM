@@ -224,8 +224,8 @@ https://maps.canada.ca/czs/index-en.html
 
 https://www.canada.ca/en/transparency/terms.html
 
-TychoSkymap.t5_04096x02048.jpg
-NASA/Goddard Space Flight Center Scientific Visualization Studio
+TychoSkymap.t5_04096x02048.jpg<br>
+NASA/Goddard Space Flight Center Scientific Visualization Studio<br>
 https://svs.gsfc.nasa.gov/3572
 
 # References
