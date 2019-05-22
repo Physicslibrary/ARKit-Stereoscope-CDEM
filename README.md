@@ -20,11 +20,25 @@ https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the 
 GIMP 2.10.8 (https://www.gimp.org/)<br>
 Blender 2.79b (https://www.blender.org/)
 
-Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages ~4 and Up program their iPad directly to experiment with ARKit and Scenekit.
+Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages >4 program their iPad directly to experiment with ARKit and Scenekit.
 
 Go to https://github.com/Physicslibrary/ARKit-Stereoscope-Hipparcos for more info on "Enable Results".
 
-# GeoTIF to 3D mesh
+# Installation
+
+With Swift Playgrounds 3.0 update, the file structure has changed from 2.2.
+
+To keep things simple, a source file learn.swift is available for pasting into Playgrounds. Resources for the program will either be made available or links provided.
+
+Unzip thor_peak.zip in Apple Files app or a third-party file manager (eg. GoodReader).
+
+Open a new "Blank" template in iOS Swift Playgrounds. Copy and paste the texts of learn.swift.
+
+Press "+" on upper right and select the third icon (folded paper). Insert thor_peak.obj and thor_peak.png.
+
+Before "Run My Code", turn off "Enable Results".
+
+# GeoTIF to 3D mesh tutorial
 
 On the Government of Canada's webpage, select https://maps.canada.ca/czs/index-en.html to access "Geospatial-Data Extraction tool".
 
