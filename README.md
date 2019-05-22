@@ -7,12 +7,22 @@ https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333
 
 (This tutorial assumes users are familiar with Blender (www.blender.org, youtube, books) and shows some steps to make textured 3D mesh from GeoTIF.)
 
+# Hardware
+
+Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
+
+The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
+
+https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the stereoscope with an 9.7" iPad.
+
 # Software
 
 GIMP 2.10.8 (https://www.gimp.org/)<br>
 Blender 2.79b (https://www.blender.org/)
 
-# Hardware
+Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages ~4 and Up program their iPad directly to experiment with ARKit and Scenekit.
+
+Go to https://github.com/Physicslibrary/ARKit-Stereoscope-Hipparcos for more info on "Enable Results".
 
 # GeoTIF to 3D mesh
 
