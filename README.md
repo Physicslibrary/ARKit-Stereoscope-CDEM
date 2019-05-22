@@ -34,7 +34,7 @@ Unzip thor_peak.zip in Apple Files app or a third-party file manager (eg. GoodRe
 
 Open a new "Blank" template in iOS Swift Playgrounds. Copy and paste the texts of learn.swift.
 
-Press "+" on upper right and select the third icon (folded paper). Insert thor_peak.obj and thor_peak.png.
+Press "+" on upper right and select the third icon (folded paper). Insert thor_peak.obj, thor_peak.png, and TychoSkymap.t5_04096x02048.jpg.
 
 Before "Run My Code", turn off "Enable Results".
 
@@ -195,19 +195,22 @@ Change Ratio from 1.0 to 0.05. The result is a mesh ~52k vertices.
 
 <img src="images/37.png" width="640">
 
-Export to thor.obj. File thor.obj ~11MB (Note - Radio=0.1 ~22MB file but didn't work well with Playgrounds)
+Export to thor.obj. File thor_peak.obj ~11MB (Note - Radio=0.1 ~22MB file but didn't work well with Playgrounds)
 
 <img src="images/38.png" width="160">
 
 
-
 # Credits
 
-thor.obj and thor.png were created from GeoTIFF files generated from:
+thor_peak.obj and thor_peak.png were created from GeoTIFF files generated from:
 
 https://maps.canada.ca/czs/index-en.html
 
 https://www.canada.ca/en/transparency/terms.html
+
+TychoSkymap.t5_04096x02048.jpg
+NASA/Goddard Space Flight Center Scientific Visualization Studio
+https://svs.gsfc.nasa.gov/3572
 
 # References
 
