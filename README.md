@@ -177,11 +177,11 @@ Next is to reduce size of Grid ~1M vertices. On the right, select "Modifiers" an
 
 <img src="images/36.png" width="640">
 
-Change Ratio from 1.0 to 0.1. The result will be Grid ~100k vertices.
+Change Ratio from 1.0 to 0.05. The result is a mesh ~52k vertices.
 
 <img src="images/37.png" width="640">
 
-Export to thor.obj.
+Export to thor.obj. File thor.obj ~11MB (Note - Radio=0.1 ~22MB file but didn't work well with Playgrounds)
 
 <img src="images/38.png" width="160">
 
