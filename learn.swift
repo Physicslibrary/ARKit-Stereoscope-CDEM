@@ -62,6 +62,10 @@ Credits
 thor_peak.obj and thor_peak.png were computed from GeoTIFF files generated from the 
 Government of Canada https://maps.canada.ca/index-en.html
 
+TychoSkymap.t5_04096x02048.jpg
+NASA/Goddard Space Flight Center Scientific Visualization Studio
+https://svs.gsfc.nasa.gov/3572
+
 */
 
 import ARKit
