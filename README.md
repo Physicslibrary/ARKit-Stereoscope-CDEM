@@ -51,6 +51,8 @@ Press "+" on upper right and select the third icon (folded paper). Insert thor_p
 
 Before "Run My Code", turn off "Enable Results".
 
+Note - The orientation of Tycho Catalog Skymap has NOT been adjusted for viewing at Auyuittuq National Park.
+
 # GeoTIF to 3D mesh tutorial
 
 On the Government of Canada's webpage, select https://maps.canada.ca/czs/index-en.html to access "Geospatial-Data Extraction tool".
