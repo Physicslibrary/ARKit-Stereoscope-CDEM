@@ -1,4 +1,5 @@
-# ARKit-Stereoscope-CDEM (under construction)
+# ARKit-Stereoscope-CDEM
+
 Explore Canadian Digital Elevation Model with Blender, Gimp, and ARKit.
 
 <img src="images/0.jpg" width="640">
