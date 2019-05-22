@@ -211,7 +211,7 @@ Change Ratio from 1.0 to 0.05. The result is a mesh ~52k vertices.
 
 <img src="images/37.png" width="640">
 
-Export to thor.obj. File thor_peak.obj ~11MB (Note - Radio=0.1 ~22MB file but didn't work well with Playgrounds)
+Export to thor.obj. File thor_peak.obj ~11MB (Note - Ratio=0.1 ~22MB file but didn't work well with Playgrounds)
 
 <img src="images/38.png" width="160">
 
