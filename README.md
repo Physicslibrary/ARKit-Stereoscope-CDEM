@@ -23,9 +23,6 @@ For more current images, [London Stereoscopic Company Ltd](https://www.londonste
 
 It is advisable to get a protective silicon case for the iPad to minimize the stereoscope sliding on the screen. The stereoscopic viewer is held in place by the user to allow switching between viewing and programming Playgrounds. With "Portrait Orientation Lock" on, this should be the most comfortable position to hold the iPad with the viewer and looking around virtual objects.
 
-
-https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the stereoscope with a 9.7" iPad.
-
 # Software
 
 GIMP 2.10.8 (https://www.gimp.org/)<br>
