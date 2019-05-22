@@ -13,7 +13,7 @@ Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
-https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the stereoscope with an 9.7" iPad.
+https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the stereoscope with a 9.7" iPad.
 
 # Software
 
