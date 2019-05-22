@@ -25,12 +25,17 @@ It is advisable to get a protective silicon case for the iPad to minimize the st
 
 # Software
 
-GIMP 2.10.8 (https://www.gimp.org/)<br>
-Blender 2.79b (https://www.blender.org/)
+Apple iOS Swift Playgrounds 3.0.
 
-Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages >4 program their iPad directly to experiment with ARKit and Scenekit.
+Swift Playgrounds lets kids ages >4 program their iPad directly to experiment with ARKit and Scenekit.
 
 Go to https://github.com/Physicslibrary/ARKit-Stereoscope-Hipparcos for more info on "Enable Results".
+
+GIMP 2.10.8 (optional) (https://www.gimp.org/)<br>
+
+Blender 2.79b (optional) (https://www.blender.org/)
+
+Note - GIMP and Blender are not available on iOS. They are used on other platforms to create content for Playgrounds.
 
 # Installation
 
