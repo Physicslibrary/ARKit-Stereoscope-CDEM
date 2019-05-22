@@ -135,7 +135,7 @@ Orient the mountain so the user is at a certain position facing a certain direct
 
 <img src="images/23.png" width="640">
 
-(warning - in Playgrounds, the position is correct but orientation is not, probably need to know how Blender export objects and how Scenekit read them)
+(Note - in Playgrounds, the position is correct but orientation is not, probably need to know how Blender export objects and how Scenekit read them)
 
 Create a new view to "UV/Image Editor" and make a new 2048x2048 image called thor.
 
