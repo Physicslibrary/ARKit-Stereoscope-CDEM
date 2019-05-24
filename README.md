@@ -236,7 +236,7 @@ https://en.wikipedia.org/wiki/Mount_Thor
 
 https://johnflower.org/tutorial/make-mountains-blender-heightmaps
 
-Thank to John for creating an excellent tutorial.
+Thank to John Flower for creating an excellent tutorial.
 
 Youtube on Blender.
 
